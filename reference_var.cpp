@@ -6,6 +6,8 @@ int main()
     int a=5;
     int &c=a;
     c=12;
-    cout<<a;
+    cout<<a<<endl;
+    cout<<&c<<endl;
+    cout<<&a;
     return 0;
 }
