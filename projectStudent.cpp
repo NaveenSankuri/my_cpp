@@ -1,8 +1,6 @@
 #include<iostream>
 #include<fstream>
 #include<string>
-//#include<cctype>
-//#include<iomanip>
 using namespace std;
 class student{
 
@@ -268,4 +266,6 @@ void change_student(int num){
 void intro(){
     system("cls");
     cout<<"STUDENT MANAGEMENT SYSTEM";
+    cin.ignore();
+    cin.get();
 }

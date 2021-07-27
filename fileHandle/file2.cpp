@@ -1,13 +1,15 @@
 #include<fstream>
 #include<iostream>
+#include<string>
 using namespace std;
 int main(){
-    char name[50];
+    string name;
     ifstream ifile;
     ifile.open("file1.txt");
-    ifile>>name;
+    getline(ifile,name);
     ifile.close();
     cout<<name;
+    
 
     return 0;
 }

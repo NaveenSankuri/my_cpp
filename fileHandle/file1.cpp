@@ -11,5 +11,6 @@ int main()
     ofile<<name<<endl;
     ofile.close();
 
+
     return 0;
 }

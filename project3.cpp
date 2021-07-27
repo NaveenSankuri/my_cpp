@@ -302,6 +302,7 @@ void display_all()
     if(!inFile)
     {
         cout<<"File could not be open !! Press any Key...";
+        
         return;
     }
     cout<<"\n\n\t\tACCOUNT HOLDER LISTnn";
@@ -340,7 +341,7 @@ void deposit_withdraw(int n, int option)
             if(option==1)
             {
                 cout<<"\n\n\tTO DEPOSITE AMOUNT ";
-                cout<<"n\n\Enter The amount to be deposited";
+                cout<<"\nEnter The amount to be deposited";
                 cin>>amt;
                 ac.dep(amt);
             }

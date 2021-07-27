@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    system("cls");
     int a=5;
     int &c=a;
     c=12;
@@ -10,4 +11,5 @@ int main()
     cout<<&c<<endl;
     cout<<&a;
     return 0;
+    
 }
